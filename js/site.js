@@ -38,7 +38,7 @@ $(document).ready(function() {
   });
 
   /* Sticky Navigation */
-  if (!!$.prototype.stickyNavbar) {
+  if (!$.stickyNavbar) {
     $("#header").stickyNavbar();
   }
 

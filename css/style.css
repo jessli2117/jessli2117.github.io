@@ -795,6 +795,20 @@ a img:hover {
   opacity: 0.7;
 }
 
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /*------------------------------------------------------------------------------------------*/
 /* 3. Fonts */
 /*------------------------------------------------------------------------------------------*/
